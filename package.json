@@ -1,0 +1,23 @@
+{
+  "name": "ai-agent-mcp",
+  "version": "1.0.0",
+  "description": "Playwright testing project for AI Agent MCP",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.2"
+  }
+}
